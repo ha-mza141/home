@@ -1,13 +1,26 @@
 // services.js
 
-// Simple Image Slider Logic
 document.querySelectorAll('.slider').forEach(slider => {
-  let images = slider.querySelectorAll('img');
+  const elements = slider.querySelectorAll('img, video');
   let current = 0;
-  
+
   setInterval(() => {
-    images[current].style.display = 'none';
-    current = (current + 1) % images.length;
-    images[current].style.display = 'block';
-  }, 3000); // Change every 3 seconds
+    elements.forEach(el => el.style.display = 'none');
+
+    current = (current + 1) % elements.length;
+    elements[current].style.display = 'block';
+
+    // Pause videos when hidden
+    elements.forEach(el => {
+      if (el.tagName.toLowerCase() === 'video') {
+        el.pause();
+        el.currentTime = 0;
+      }
+    });
+
+    if (elements[current].tagName.toLowerCase() === 'video') {
+      elements[current].play();
+    }
+
+  }, 4000); // Switch every 4 seconds
 });
