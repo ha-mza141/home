@@ -2,7 +2,16 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hamzaawan141.github.io/ha_mza141/</loc>
-    <lastmod>2025-04-26</lastmod>
+    <lastmod>2025-05-24</lastmod>
     <priority>1.00</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://hamzaawan141.github.io/ha_mza141/blog.html</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post1.html</loc>
+    <lastmod>2025-05-24</lastmod>
+    <priority>0.70</priority>
+  </url>
