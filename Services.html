@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="41pXOB4y7xYyjaNLKrxkK9Pvxer3P_KoILx5Nbo1jvw" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional QuickBooks Online bookkeeping and accounting services by Muhammad Hamza">
+  <meta name="keywords" content="QuickBooks services, bookkeeping, accounting, financial reports, payroll, CRM">
+  <meta name="author" content="Muhammad Hamza">
+  <title>Accounting Services | Muhammad Hamza</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .services-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2em;
+    }
+    
+    .services-header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2em;
+    }
+    
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      border: 1px solid #e1e1e1;
+    }
+    
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .service-icon {
+      font-size: 2.5em;
+      color: var(--accent);
+      margin-bottom: 0.5em;
+    }
+    
+    .service-content {
+      padding: 1.5em;
+    }
+    
+    .service-title {
+      margin: 0.5em 0;
+      font-size: 1.3em;
+      color: var(--accent);
+    }
+    
+    .service-description {
+      color: #666;
+      margin-bottom: 1em;
+      font-size: 0.9em;
+    }
+    
+    .service-features {
+      margin: 1em 0;
+      padding-left: 1.5em;
+    }
+    
+    .service-features li {
+      margin-bottom: 0.5em;
+      position: relative;
+      list-style-type: none;
+    }
+    
+    .service-features li:before {
+      content: "✓";
+      color: var(--accent);
+      position: absolute;
+      left: -1.5em;
+    }
+    
+    .service-price {
+      font-weight: bold;
+      margin: 1em 0;
+      color: var(--accent);
+    }
+    
+    .service-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.8em;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .testimonials {
+      margin-top: 3em;
+    }
+    
+    .testimonial-card {
+      background: white;
+      padding: 1.5em;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin-bottom: 1em;
+    }
+    
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 1em;
+    }
+    
+    .testimonial-author {
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .service-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Hamza</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdes8BzTSMozJdNAHuVWgeHxbgjNb67GR_7R-w0pRt92bJkHw/viewform?pli=1">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <div class="services-container">
+    <div class="services-header">
+      <h2>Professional Accounting Services</h2>
+      <p>Customized QuickBooks Online solutions for your business</p>
+    </div>
+    
+    <div class="service-cards">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">📊</div>
+          <h3 class="service-title">Full-Service Bookkeeping</h3>
+          <p class="service-description">Comprehensive monthly bookkeeping services to keep your finances organized and accurate.</p>
+          <ul class="service-features">
+            <li>Transaction categorization</li>
+            <li>Bank & credit card reconciliation</li>
+            <li>Monthly financial reports</li>
+            <li>Chart of accounts maintenance</li>
+          </ul>
+          <div class="service-price">Starting at PKR 221,185/month</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">🧾</div>
+          <h3 class="service-title">Payroll Management</h3>
+          <p class="service-description">Accurate and compliant payroll processing for your team.</p>
+          <ul class="service-features">
+            <li>Employee pay calculations</li>
+            <li>Tax withholding and filings</li>
+            <li>Pay stubs generation</li>
+            <li>Year-end W-2/1099 preparation</li>
+          </ul>
+          <div class="service-price">Starting at PKR 110,592/month</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">📈</div>
+          <h3 class="service-title">Financial Reporting</h3>
+          <p class="service-description">Custom financial reports to help you make better business decisions.</p>
+          <ul class="service-features">
+            <li>Profit & Loss statements</li>
+            <li>Balance sheets</li>
+            <li>Cash flow analysis</li>
+            <li>Custom report creation</li>
+          </ul>
+          <div class="service-price">Starting at PKR 73,728/month</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Service 4 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">🔍</div>
+          <h3 class="service-title">QuickBooks Setup & Training</h3>
+          <p class="service-description">Proper configuration and training to maximize QuickBooks efficiency.</p>
+          <ul class="service-features">
+            <li>Initial QuickBooks setup</li>
+            <li>Chart of accounts customization</li>
+            <li>Bank feed configuration</li>
+            <li>1-on-1 training sessions</li>
+          </ul>
+          <div class="service-price">One-time fee PKR 147,456</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Service 5 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">📱</div>
+          <h3 class="service-title">CRM Data Entry & Lead Generation</h3>
+          <p class="service-description">Organize your customer data and identify new business opportunities.</p>
+          <ul class="service-features">
+            <li>CRM data entry and cleanup</li>
+            <li>Lead list generation</li>
+            <li>Customer segmentation</li>
+            <li>Sales pipeline tracking</li>
+          </ul>
+          <div class="service-price">Starting at PKR 55,296/month</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Service 6 -->
+      <div class="service-card">
+        <div class="service-content">
+          <div class="service-icon">🔧</div>
+          <h3 class="service-title">QuickBooks Troubleshooting</h3>
+          <p class="service-description">Fix issues and optimize your QuickBooks performance.</p>
+          <ul class="service-features">
+            <li>Error resolution</li>
+            <li>Data cleanup</li>
+            <li>Performance optimization</li>
+            <li>Integration troubleshooting</li>
+          </ul>
+          <div class="service-price">PKR 36,864/hour</div>
+          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="testimonials">
+      <h3>What Clients Say</h3>
+      
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Muhammad completely transformed our bookkeeping process. Our financial reports are now accurate and timely, helping us make better business decisions."</p>
+        <p class="testimonial-author">- Ahmed R., Small Business Owner</p>
+      </div>
+      
+      <div class="testimonial-card">
+        <p class="testimonial-text">"The QuickBooks setup service was worth every rupee. We went from chaotic spreadsheets to a properly organized system in just a few days."</p>
+        <p class="testimonial-author">- Sara K., E-commerce Store</p>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 3em;">
+      <h3>Ready to streamline your accounting?</h3>
+      <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="btn" target="_blank" style="display: inline-block; margin-top: 1em;">Hire Me on Fiverr</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Hamza. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
