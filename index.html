@@ -4,6 +4,9 @@
   <meta name="google-site-verification" content="41pXOB4y7xYyjaNLKrxkK9Pvxer3P_KoILx5Nbo1jvw" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Muhammad Hamza - Expert QuickBooks Online Accountant and Bookkeeper">
+  <meta name="keywords" content="QuickBooks, bookkeeping, accounting, freelancer, Fiverr, lead generation">
+  <meta name="author" content="Muhammad Hamza">
   <title>Muhammad Hamza | QuickBooks Expert</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -19,30 +22,125 @@
     }
     
     .video-background iframe {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0.3; /* Adjust opacity as needed */
+      width: 100vw;
+      height: 56.25vw; /* 16:9 aspect ratio */
+      min-height: 100vh;
+      min-width: 177.77vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.3;
     }
     
     /* Content overlay */
-    .content-overlay {
+    .content-wrapper {
       position: relative;
       z-index: 1;
-      background-color: rgba(255,255,255,0.85); /* Semi-transparent white */
+      background-color: rgba(255,255,255,0.85);
     }
     
-    /* Adjust existing sections */
+    /* Header adjustments */
     header {
-      background-color: rgba(11, 94, 215, 0.9); /* Semi-transparent header */
+      background-color: rgba(11, 94, 215, 0.9);
+      position: relative;
+    }
+    
+    /* Existing styles from your CSS */
+    body {
+      background: var(--background);
+      color: var(--text);
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
     }
     
     .section {
-      background-color: rgba(255,255,255,0.9); /* Slightly more opaque sections */
+      padding: 4em 1em;
+      text-align: center;
+      background-color: rgba(255,255,255,0.9);
     }
     
-    /* Keep all your existing styles */
-    /* ... */
+    .home {
+      background: rgba(231, 241, 255, 0.9);
+    }
+    
+    .btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.8em;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      margin-top: 2em;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Navigation styles */
+    nav {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1em;
+    }
+    
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5em;
+    }
+    
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: var(--accent);
+        position: absolute;
+        right: 0;
+        top: 60px;
+        width: 200px;
+        padding: 1em;
+      }
+    
+      .nav-links.show {
+        display: flex;
+      }
+    
+      .video-background iframe {
+        display: none;
+      }
+      
+      .content-wrapper {
+        background-color: rgba(255,255,255,0.95);
+      }
+    }
   </style>
 </head>
 <body>
@@ -55,8 +153,8 @@
     </iframe>
   </div>
   
-  <div class="content-overlay">
-    <!-- Your existing header -->
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
     <header>
       <nav>
         <h1>Hamza</h1>
@@ -70,7 +168,6 @@
       </nav>
     </header>
 
-    <!-- Your existing sections -->
     <section id="home" class="section home">
       <div class="content">
         <h2>Hi, I'm Muhammad Hamza 👋</h2>
@@ -79,123 +176,47 @@
       </div>
     </section>
 
-  <!-- Comprehensive Services Section -->
-  <section id="services" class="services-section">
-    <div class="services-container">
-      <div class="section-header">
-        <h2>Professional Accounting Services</h2>
-        <p>Complete QuickBooks Online solutions for your business</p>
+    <section id="video" class="section video">
+      <h2>Watch My QuickBooks Intro</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/aXmbgBrPxmA" 
+                title="Hamza QuickBooks Intro Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
       </div>
-      
-      <div class="service-cards">
-        <!-- Service 1 -->
-        <div class="service-card">
-          <div class="service-icon">📊</div>
-          <h3 class="service-title">Full-Service Bookkeeping</h3>
-          <p class="service-description">Comprehensive monthly bookkeeping services to keep your finances organized and accurate.</p>
-          <ul class="service-features">
-            <li>Transaction categorization</li>
-            <li>Bank reconciliation</li>
-            <li>Financial reports</li>
-            <li>Chart of accounts</li>
-          </ul>
-          <div class="service-price">Starting at PKR 221,185/month</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-        
-        <!-- Service 2 -->
-        <div class="service-card">
-          <div class="service-icon">🧾</div>
-          <h3 class="service-title">Payroll Management</h3>
-          <p class="service-description">Accurate and compliant payroll processing for your team.</p>
-          <ul class="service-features">
-            <li>Employee pay calculations</li>
-            <li>Tax withholding</li>
-            <li>Pay stubs generation</li>
-            <li>Year-end preparation</li>
-          </ul>
-          <div class="service-price">Starting at PKR 110,592/month</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-        
-        <!-- Service 3 -->
-        <div class="service-card">
-          <div class="service-icon">📈</div>
-          <h3 class="service-title">Financial Reporting</h3>
-          <p class="service-description">Custom financial reports to help you make better business decisions.</p>
-          <ul class="service-features">
-            <li>Profit & Loss statements</li>
-            <li>Balance sheets</li>
-            <li>Cash flow analysis</li>
-            <li>Custom reports</li>
-          </ul>
-          <div class="service-price">Starting at PKR 73,728/month</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-        
-        <!-- Service 4 -->
-        <div class="service-card">
-          <div class="service-icon">🔧</div>
-          <h3 class="service-title">QuickBooks Setup</h3>
-          <p class="service-description">Proper configuration to maximize QuickBooks efficiency.</p>
-          <ul class="service-features">
-            <li>Initial setup</li>
-            <li>Chart customization</li>
-            <li>Bank feed setup</li>
-            <li>Training sessions</li>
-          </ul>
-          <div class="service-price">One-time fee PKR 147,456</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-        
-        <!-- Service 5 -->
-        <div class="service-card">
-          <div class="service-icon">📱</div>
-          <h3 class="service-title">CRM Data Services</h3>
-          <p class="service-description">Organize your customer data and identify opportunities.</p>
-          <ul class="service-features">
-            <li>Data entry & cleanup</li>
-            <li>Lead generation</li>
-            <li>Customer segmentation</li>
-            <li>Sales tracking</li>
-          </ul>
-          <div class="service-price">Starting at PKR 55,296/month</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-        
-        <!-- Service 6 -->
-        <div class="service-card">
-          <div class="service-icon">🔍</div>
-          <h3 class="service-title">QuickBooks Troubleshooting</h3>
-          <p class="service-description">Fix issues and optimize your QuickBooks performance.</p>
-          <ul class="service-features">
-            <li>Error resolution</li>
-            <li>Data cleanup</li>
-            <li>Performance optimization</li>
-            <li>Integration help</li>
-          </ul>
-          <div class="service-price">PKR 36,864/hour</div>
-          <a href="https://www.fiverr.com/ha_mza141/be-your-expert-quickbooks-online-bookkeeper-and-accountant" class="service-btn" target="_blank">Get Started</a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="order" class="section order">
-    <h2>Submit Your Order</h2>
-    <p>Click below to securely fill out your order request.</p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdes8BzTSMozJdNAHuVWgeHxbgjNb67GR_7R-w0pRt92bJkHw/viewform?usp=header" target="_blank" class="btn">Fill Order Form</a>
-  </section>
+    <section id="order" class="section order">
+      <h2>Submit Your Order</h2>
+      <p>Click below to securely fill out your order request.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdes8BzTSMozJdNAHuVWgeHxbgjNb67GR_7R-w0pRt92bJkHw/viewform?usp=header" target="_blank" class="btn">Fill Order Form</a>
+    </section>
 
-  <section id="contact" class="section contact">
-    <h2>Connect with Me</h2>
-    <a class="btn" href="https://www.linkedin.com/in/hamzaawan141/" target="_blank">Connect on LinkedIn</a>
-  </section>
+    <section id="contact" class="section contact">
+      <h2>Connect with Me</h2>
+      <a class="btn" href="https://www.linkedin.com/in/hamzaawan141/" target="_blank">Connect on LinkedIn</a>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Muhammad Hamza. All rights reserved.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2025 Muhammad Hamza. All rights reserved.</p>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
+  <script>
+    // Mobile menu toggle functionality
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('show');
+    });
+    
+    // Fallback for mobile devices
+    if (window.innerWidth <= 768) {
+      document.querySelector('.video-background').style.background = "url('fallback-bg.jpg') center/cover no-repeat";
+      document.querySelector('.video-background iframe').style.display = "none";
+    }
+  </script>
 </body>
 </html>
