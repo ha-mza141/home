@@ -3,13 +3,10 @@
   <meta name="google-site-verification" content="41pXOB4y7xYyjaNLKrxkK9Pvxer3P_KoILx5Nbo1jvw" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Muhammad Hamza - Expert QuickBooks Online Accountant and Bookkeeper">
-  <meta name="keywords" content="QuickBooks, bookkeeping, accounting, freelancer, Fiverr, lead generation">
-  <meta name="author" content="Muhammad Hamza">
   <title>Muhammad Hamza | QuickBooks Expert</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Add these new styles for video background */
+    /* Enhanced Video Background */
     .video-background {
       position: fixed;
       top: 0;
@@ -18,12 +15,12 @@
       height: 100%;
       z-index: -1;
       overflow: hidden;
-      opacity: 0.3; /* Adjust this value to change transparency */
+      opacity: 0.7; /* Increased from 0.3 to 0.7 for better visibility */
     }
     
     .video-background iframe {
       width: 100vw;
-      height: 56.25vw; /* 16:9 aspect ratio */
+      height: 56.25vw;
       min-height: 100vh;
       min-width: 177.77vh;
       position: absolute;
@@ -32,33 +29,65 @@
       transform: translate(-50%, -50%);
     }
     
-    /* Ensure content stays readable */
+    /* Improved Content Contrast */
     body {
       position: relative;
+      color: #333; /* Darker text for better readability */
     }
     
     header {
-      background-color: rgba(11, 94, 215, 0.9); /* Semi-transparent header */
+      background-color: rgba(11, 94, 215, 0.85);
       position: relative;
+      backdrop-filter: blur(5px); /* Frosted glass effect */
+      border-bottom: 2px solid rgba(255,255,255,0.2);
     }
     
     .section {
-      background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent sections */
+      background-color: rgba(255, 255, 255, 0.9); /* More opaque sections */
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 1200px;
+      padding: 2.5em;
     }
     
-    /* Mobile fallback */
+    .home {
+      background: rgba(231, 241, 255, 0.95); /* Less transparent for home section */
+    }
+    
+    /* Enhanced Buttons */
+    .btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 600;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    
+    /* Mobile Optimization */
     @media (max-width: 768px) {
       .video-background {
-        display: none;
+        opacity: 0.5; /* Slightly less visible on mobile */
       }
-      body {
-        background: url('fallback-bg.jpg') center/cover no-repeat;
+      
+      .section {
+        padding: 1.5em;
+        margin: 10px;
       }
     }
   </style>
 </head>
 <body>
-  <!-- Add this video background right after opening body tag -->
+  <!-- More Visible Video Background -->
   <div class="video-background">
     <iframe src="https://www.youtube.com/embed/aXmbgBrPxmA?autoplay=1&mute=1&loop=1&controls=0&playlist=aXmbgBrPxmA" 
             frameborder="0" 
