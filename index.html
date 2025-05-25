@@ -1,4 +1,3 @@
-﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta name="google-site-verification" content="41pXOB4y7xYyjaNLKrxkK9Pvxer3P_KoILx5Nbo1jvw" />
@@ -9,8 +8,64 @@
   <meta name="author" content="Muhammad Hamza">
   <title>Muhammad Hamza | QuickBooks Expert</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add these new styles for video background */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      overflow: hidden;
+      opacity: 0.3; /* Adjust this value to change transparency */
+    }
+    
+    .video-background iframe {
+      width: 100vw;
+      height: 56.25vw; /* 16:9 aspect ratio */
+      min-height: 100vh;
+      min-width: 177.77vh;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* Ensure content stays readable */
+    body {
+      position: relative;
+    }
+    
+    header {
+      background-color: rgba(11, 94, 215, 0.9); /* Semi-transparent header */
+      position: relative;
+    }
+    
+    .section {
+      background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent sections */
+    }
+    
+    /* Mobile fallback */
+    @media (max-width: 768px) {
+      .video-background {
+        display: none;
+      }
+      body {
+        background: url('fallback-bg.jpg') center/cover no-repeat;
+      }
+    }
+  </style>
 </head>
 <body>
+  <!-- Add this video background right after opening body tag -->
+  <div class="video-background">
+    <iframe src="https://www.youtube.com/embed/aXmbgBrPxmA?autoplay=1&mute=1&loop=1&controls=0&playlist=aXmbgBrPxmA" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+  </div>
 
   <header>
   <nav>
