@@ -1,63 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post1.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post2.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post3.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post4.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post5.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post6.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post7.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post8.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post9.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://hamzaawan141.github.io/ha_mza141/blog/post10.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <priority>0.70</priority>
-  </url>
-</urlset>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ha-mza141.github.io/home/index.html</loc>
+  <lastmod>2025-05-26T21:41:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ha-mza141.github.io/home/services.html</loc>
+  <lastmod>2025-05-26T21:41:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ha-mza141.github.io/home/blog.html</loc>
+  <lastmod>2025-05-26T21:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ha-mza141.github.io/home/QuickBooks%20Online%20Setup%20Checklist%20for%20Small%20Businesses.html</loc>
+  <lastmod>2025-05-26T21:41:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ha-mza141.github.io/home/post2.html</loc>
+  <lastmod>2025-05-26T21:41:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
