@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="41pXOB4y7xYyjaNLKrxkK9Pvxer3P_KoILx5Nbo1jvw" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional QuickBooks Online bookkeeping, payroll, and lead generation services by Muhammad Hamza">
+  <meta name="keywords" content="QuickBooks services, bookkeeping, payroll, lead generation, accounting, CRM">
+  <meta name="author" content="Muhammad Hamza">
+  <title>Accounting & Business Services | Muhammad Hamza</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .services-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2em;
+    }
+    .services-header {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2em;
+    }
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      border: 1px solid #e1e1e1;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-content {
+      padding: 1.5em;
+    }
+    .service-title {
+      margin: 0.5em 0;
+      font-size: 1.3em;
+      color: var(--accent);
+    }
+    .service-description {
+      color: #666;
+      margin-bottom: 1em;
+      font-size: 0.95em;
+    }
+    .service-features {
+      margin: 1em 0;
+      padding-left: 1.5em;
+    }
+    .service-features li {
+      margin-bottom: 0.5em;
+      position: relative;
+      list-style-type: none;
+    }
+    .service-features li:before {
+      content: "✓";
+      color: var(--accent);
+      position: absolute;
+      left: -1.5em;
+    }
+    .service-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.8em;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      .service-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Hamza</h1>
+      <ul class="nav-links">
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="../home/blog.html">Blog</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdes8BzTSMozJdNAHuVWgeHxbgjNb67GR_7R-w0pRt92bJkHw/viewform?pli=1">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <div class="services-container">
+    <div class="services-header">
+      <h2>Fiverr-Based Business Services</h2>
+      <p>QuickBooks bookkeeping, lead generation, and payroll management tailored for your business</p>
+    </div>
+
+    <div class="service-cards">
+      <!-- Service 1: Bookkeeping -->
+      <div class="service-card">
+        <div class="service-content">
+          <h3 class="service-title">QuickBooks Bookkeeping & Cleanup</h3>
+          <p class="service-description">Professional monthly bookkeeping, account cleanup, and financial reporting for businesses of all sizes.</p>
+          <ul class="service-features">
+            <li>Monthly categorization & reconciliation</li>
+            <li>Catch-up bookkeeping</li>
+            <li>Financial reports (P&L, Balance Sheet)</li>
+            <li>QuickBooks account cleanup</li>
+          </ul>
+          <a href="https://www.fiverr.com/hamzaawan141/do-quickbooks-clean-up-and-online-monthly-bookkeeping-for-your-business" class="service-btn" target="_blank">View Gig</a>
+        </div>
+      </div>
+
+      <!-- Service 2: Lead Generation -->
+      <div class="service-card">
+        <div class="service-content">
+          <h3 class="service-title">B2B Lead Generation</h3>
+          <p class="service-description">Manually researched, verified leads for businesses in SaaS, real estate, law, health, coaching & more.</p>
+          <ul class="service-features">
+            <li>Verified business emails</li>
+            <li>Decision-maker contacts</li>
+            <li>LinkedIn profiles & company data</li>
+            <li>Custom filters by industry, region</li>
+          </ul>
+          <a href="https://www.fiverr.com/hamzaawan141/generate-high-quality-leads-for-your-business" class="service-btn" target="_blank">View Gig</a>
+        </div>
+      </div>
+
+      <!-- Service 3: Payroll Management -->
+      <div class="service-card">
+        <div class="service-content">
+          <h3 class="service-title">Payroll Management</h3>
+          <p class="service-description">Run payroll, track taxes, generate payslips, and stay compliant using QuickBooks, Xero, or Wave.</p>
+          <ul class="service-features">
+            <li>Employee setup & tax compliance</li>
+            <li>Payslip and W-2/1099 reports</li>
+            <li>Tip tracking for restaurants</li>
+            <li>Airbnb and real estate payroll</li>
+          </ul>
+          <a href="https://www.fiverr.com/hamzaawan141/do-payroll-management-in-quickbooks-xero-or-wave" class="service-btn" target="_blank">View Gig</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Muhammad Hamza. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
